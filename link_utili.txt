@@ -1,0 +1,14 @@
+trovato link per aggiungere una barra di ricerca
+
+https://www.w3schools.com/howto/howto_css_animated_search.asp
+
+rating!!
+
+https://www.w3schools.com/howto/howto_css_star_rating.asp
+
+slideshow per le news
+
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+react introduzione:
+https://it.legacy.reactjs.org/docs/introducing-jsx.html

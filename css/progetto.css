@@ -1,0 +1,253 @@
+body {
+    font-family: "Helvetica Neue", Verdana, sans-serif;
+    margin: 0;
+    padding-bottom: 5rem;
+    background-color: #f7f7f7;
+}
+
+footer {
+    background-color: #a5241b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+
+input[type=text], input[type=password], input[type=date], input[type=datetime-local], input[type=email], select, textarea {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=date]:hover, input[type=email]:hover, select:hover, textarea:hover {
+    border-color: rgb(206, 75, 36);
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.guida {
+    color: grey;
+    opacity: 0.7;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Bottoni */
+.bottoni {
+    justify-content: left;
+    align-items: center;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    background-color: #85111b; 
+    color: white;
+    transition: 0.5s;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bottoni:hover {
+    background-color: rgb(117, 18, 39);
+}
+
+
+.content {
+    overflow: hidden;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(216, 6, 6, 0.575);
+    padding: 2rem 8rem;
+    width: 30%;
+    height: 50%;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3rem;
+    min-width: 50%;
+}
+
+.content_login {
+    overflow: hidden;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem rgba(146, 2, 26, 0.575);
+    padding: 2rem 8rem;
+    width: 30%;
+    height: 50%;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.lastBtn {
+    margin-top: 1.5rem;
+}
+
+.segnalaErrore {
+    color: red;
+    font-size: small;
+    text-align: left;
+    display: block;
+}
+
+main {
+    margin: 2rem;
+}
+
+h1 {
+    color: #a5241b;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #be2d28;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(114, 32, 21);
+    transition: 0.5s;
+    border-color: rgb(114, 32, 21);
+    color: white;
+}
+
+#attiva {
+    background-color: #cf6e67;
+}
+
+h2 {
+    color: #be2d28;
+    font-size: 1rem;
+}
+
+#pagina_logout {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.checked {
+    color: orange;
+}
+
+textarea {
+    resize: none;
+    display: block;
+    margin-top: 1rem;
+}
+
+.recensione {
+    border-radius: 3rem;
+    border-color: #f22718;
+    border-width: 0.1rem;
+    padding: 2rem 2rem;
+    border-style: solid;
+    margin-top: 1rem;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+.contact-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.search-input {
+    padding: 0.625rem; 
+    width: 15.625rem; 
+    border: 0.125rem solid #ddd; 
+    border-radius: 0.25rem 0 0 0.25rem; 
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
+
+main section {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.5rem; 
+    width: 80%;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+}
+
+main section h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 0.9375rem;
+    color: #333;
+    text-align: center;
+}
+
+main section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main section ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem; 
+    border-bottom: 0.0625rem solid #ddd; 
+    font-size: 1.125rem; 
+}
+
+main section ul li:last-child {
+    border-bottom: none;
+}
+
+main section ul li span {
+    display: inline-block;
+    color: #555;
+}
